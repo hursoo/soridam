@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.data.content.ko.meta.title }}</title>
+  <meta name="description" content="{{ site.data.content.ko.meta.description }}">
+  <meta property="og:title" content="{{ site.data.content.ko.meta.title }}">
+  <meta property="og:description" content="{{ site.data.content.ko.meta.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+  <meta property="og:image" content="{{ '/assets/img/soridam-logo.jpg' | relative_url | prepend: site.url }}">
+  <link rel="icon" href="{{ '/assets/img/soridam-logo.jpg' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/img/soridam-logo.jpg' | relative_url }}" alt="STUDIO SORI" class="brand-logo">
+      </a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#about" data-i18n="nav.about"></a></li>
+          <li><a href="#brewing" data-i18n="nav.brewing"></a></li>
+          <li><a href="#award" data-i18n="nav.award"></a></li>
+          <li><a href="#donation" data-i18n="nav.donation"></a></li>
+        </ul>
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footer.rights"></p>
+    </div>
+  </footer>
+
+  <script>
+    window.SITE_I18N = {
+      ko: {{ site.data.content.ko | jsonify }},
+      en: {{ site.data.content.en | jsonify }}
+    };
+  </script>
+  <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
+</body>
+</html>

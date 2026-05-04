@@ -1,0 +1,23 @@
+title: "Soridam 소리담 — Studio Sori"
+description: "한국 전통 가양주 소리담 / Studio Sori. DH2026 기증주."
+baseurl: "/soridam"
+url: "https://hursoo.github.io"
+
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

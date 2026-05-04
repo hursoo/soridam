@@ -1,0 +1,137 @@
+ko:
+  meta:
+    title: "소리담 Soridam — Studio Sori"
+    description: "한국 전통 가양주 소리담 / Studio Sori. 제15회 대한민국명주대상 탁주 부문 금상. DH2026 기증주."
+    lang_label: "EN"
+  nav:
+    about: "소개"
+    name: "이름"
+    brewing: "양조"
+    brewer: "양조자"
+    award: "수상"
+    donation: "DH2026"
+  hero:
+    eyebrow: "STUDIO SORI"
+    name: "소리담"
+    name_alt: "Soridam · 笑利談"
+    tagline: "자연의 소리를 담고, 좋은 이야기를 나누는 한국 전통 가양주"
+  about:
+    title: "소리담"
+    body: |
+      소리담은 가정에서 빚는 한국 전통 가양주(家釀酒)입니다.
+      '소리를 담다'라는 이름처럼, 빚는 사람의 손길과 자연의 소리, 그리고 함께 마실 사람과 나눌 이야기까지 한 잔 안에 담깁니다.
+  name:
+    title: "이름의 유래"
+    body_korean: |
+      가을 새벽, 발코니에서 술이 익어가고 있을 때 바로 앞 안양천에서 들려오는 풀벌레 소리는 마치 자연의 오케스트라 같았습니다. 그 소리를 들으며 익어간다는 뜻을 담아 한글로 '소리'를 넣었습니다.
+    body_hanja: |
+      한자로는 笑利談, 곧 '웃을 소(笑)·이로울 리(利)·이야기 담(談)'으로 풀어 즐거운 이야기, 좋은 이야기를 나누며 마시자는 뜻입니다.
+  gayangju:
+    title: "가양주(家釀酒)"
+    body: |
+      가양주는 가정에서 직접 빚는 술을 가리킵니다. 조선시대까지는 집집마다 고유한 가양주가 있었으나, 1909년 주세령 시행 이후 그 전통이 크게 위축되었습니다. 오늘날 가양주 빚기는 한국 발효문화의 살아 있는 전승으로 다시 주목받고 있습니다.
+  brewing:
+    title: "빚는 법"
+    meta: "탁주(Takju) · 도수 15~18°"
+    intro: "이양주(二釀酒) — 밑술을 먼저 빚고, 사흘 뒤 덧술을 더해 두 번 발효하는 전통 방식입니다."
+    steps:
+      - "멥쌀을 깨끗하게 씻어 하룻밤 불린 뒤 건져서 가루로 빻는다."
+      - "쌀가루에 뜨거운 물을 섞어 범벅을 만들어 차게 식힌다."
+      - "식힌 범벅에 누룩을 섞어 밑술을 빚고 발효한다."
+      - "3일 후 멥쌀과 찹쌀로 고두밥을 지어 식힌 다음 밑술과 합하여 덧술(2차 발효)을 한다."
+      - "약 한 달 발효한 뒤 채주(거름)한다."
+      - "다시 약 한 달 숙성하여 완성한다."
+  brewer:
+    title: "양조자"
+    name: "김미자"
+    name_alt: "Kim Mija"
+    role: "Studio Sori · 가양주 양조자"
+  studio:
+    title: "Studio Sori"
+    body: |
+      Studio Sori는 김미자 양조자의 가양주 공방입니다. 소리담은 Studio Sori가 선보이는 첫 가양주입니다.
+  award:
+    title: "수상"
+    headline: "제15회 대한민국명주대상 — 탁주 부문 금상"
+    detail: "농림축산식품부장관상 · 2025년 11월 1일 · 예산문화회관 · (사)한국전통주연구소 주관"
+    description: |
+      대한민국명주대상은 한국 전통주의 품질 향상과 대중화를 위해 매년 개최되는 국내 최고 권위의 가양주 경연대회 중 하나입니다. 단순한 맛 평가를 넘어 우리 술의 원형을 복원하고 가치를 높이는 데 큰 목적을 두며, 전통주 전문가로 구성된 심사위원단이 외관(색·투명도)·향·맛·전체적인 조화·뒷맛까지 세밀하게 심사합니다. 금상은 해당 부문 최고 품질에 주어지는 영예로운 상입니다.
+    press_label: "관련 기사 (브레이크뉴스)"
+    press_url: "https://www.breaknews.com/1158609"
+  donation:
+    title: "DH2026 기증"
+    body: |
+      소리담은 2026년 7월 27~31일 대전컨벤션센터(DCC)에서 열리는 디지털인문학 국제학술대회 DH2026 (Digital Humanities 2026)에 750ml 30병을 기증합니다.
+    link_label: "DH2026 후원사 페이지"
+    link_url: "https://dh2026.adho.org/sponsors/"
+  footer:
+    rights: "© 2026 Studio Sori"
+
+en:
+  meta:
+    title: "Soridam — Studio Sori"
+    description: "Soridam, a Korean traditional home-brewed takju by Studio Sori. Gold Prize, Korea Traditional Liquor Awards 2025. Donated to DH2026."
+    lang_label: "한"
+  nav:
+    about: "About"
+    name: "Name"
+    brewing: "Brewing"
+    brewer: "Brewer"
+    award: "Award"
+    donation: "DH2026"
+  hero:
+    eyebrow: "STUDIO SORI"
+    name: "Soridam"
+    name_alt: "소리담 · 笑利談"
+    tagline: "A Korean traditional home-brewed takju that holds the sounds of nature and the warmth of shared stories."
+  about:
+    title: "Soridam"
+    body: |
+      Soridam is a Korean home-brewed liquor (gayangju, 家釀酒).
+      True to its name — "holding the sound" — each cup carries the brewer's care, the sounds of nature, and the conversations that come with it.
+  name:
+    title: "Origin of the Name"
+    body_korean: |
+      On autumn dawns, when the brew was ripening on the balcony, the calls of insects from the nearby Anyang Stream sounded like an orchestra of nature. The Korean word "sori" (소리, sound) was placed in the name to capture this — the liquor matures while listening to these sounds.
+    body_hanja: |
+      In Hanja the name is written 笑利談 — 笑 (smile), 利 (good), 談 (talk) — which together mean "let us drink while sharing joyful and good stories."
+  gayangju:
+    title: "On Gayangju (家釀酒)"
+    body: |
+      Gayangju refers to liquor brewed at home. Once a household tradition across Korea, the practice nearly vanished after the colonial-era Liquor Tax Law of 1909. Today, home-brewing is again recognized as a living continuation of Korea's fermentation heritage.
+  brewing:
+    title: "How It Is Brewed"
+    meta: "Takju (탁주) · ABV 15–18%"
+    intro: "Iyangju (二釀酒) — a traditional two-step brew: a seed mash is fermented first, then a second mash is added three days later."
+    steps:
+      - "Wash non-glutinous rice, soak overnight, drain, and grind into flour."
+      - "Mix the rice flour with hot water to form a porridge-like paste; let it cool."
+      - "Combine the cooled paste with nuruk (Korean fermentation starter) to make the seed mash; ferment."
+      - "After three days, steam non-glutinous and glutinous rice into godubap, cool it, and combine with the seed mash for a second fermentation."
+      - "Ferment for about a month, then strain (chaeju)."
+      - "Age for approximately another month."
+  brewer:
+    title: "Brewer"
+    name: "Kim Mija"
+    name_alt: "김미자"
+    role: "Studio Sori · home brewer of gayangju"
+  studio:
+    title: "Studio Sori"
+    body: |
+      Studio Sori is the home-brewing atelier of Kim Mija. Soridam is the first gayangju from Studio Sori.
+  award:
+    title: "Award"
+    headline: "Gold Prize — Takju category, the 15th Korea Traditional Liquor Awards"
+    detail: "Minister of Agriculture, Food and Rural Affairs Award · 1 November 2025 · Yesan Cultural Center · Organized by the Korea Institute of Traditional Liquor"
+    description: |
+      The Korea Traditional Liquor Awards (대한민국명주대상) is one of the most prestigious annual home-brewing competitions in Korea, dedicated to elevating the quality and recognition of Korean traditional liquors. A panel of traditional liquor experts evaluates each entry on appearance (color and clarity), aroma, taste, overall harmony, and aftertaste. The Gold Prize is awarded to the highest-quality entry in each category.
+    press_label: "Related news article (BreakNews)"
+    press_url: "https://www.breaknews.com/1158609"
+  donation:
+    title: "DH2026 Donation"
+    body: |
+      Soridam donates 30 bottles (750 ml each) to DH2026 (Digital Humanities 2026), the international conference held 27–31 July 2026 at the Daejeon Convention Center.
+    link_label: "DH2026 Sponsors page"
+    link_url: "https://dh2026.adho.org/sponsors/"
+  footer:
+    rights: "© 2026 Studio Sori"

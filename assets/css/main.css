@@ -1,0 +1,267 @@
+:root {
+  --color-bg: #ffffff;
+  --color-bg-alt: #f6f6f4;
+  --color-fg: #111111;
+  --color-muted: #6b6b6b;
+  --color-border: #e5e5e2;
+  --color-dark: #000000;
+  --font-serif-kr: "Noto Serif KR", "Nanum Myeongjo", serif;
+  --font-sans-kr: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans-en: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --max-width: 720px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans-kr), var(--font-sans-en);
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--color-fg);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html[lang="en"] body {
+  font-family: var(--font-sans-en), var(--font-sans-kr);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ── Header ─────────────────────────────── */
+.site-header {
+  background: var(--color-dark);
+  color: #fff;
+  padding: 0.85rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: #fff;
+}
+.brand-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.site-nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.88rem;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.site-nav a:hover { opacity: 1; }
+
+.lang-toggle {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-sans-en);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  min-width: 44px;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-toggle:hover {
+  background: #fff;
+  color: var(--color-dark);
+}
+
+@media (max-width: 640px) {
+  .site-nav ul { display: none; }
+  .brand-logo { height: 30px; }
+}
+
+/* ── Hero ───────────────────────────────── */
+.hero {
+  padding: 4.5rem 0 3.5rem;
+  text-align: center;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+.eyebrow {
+  font-family: var(--font-sans-en);
+  font-size: 0.72rem;
+  letter-spacing: 0.3em;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  margin: 0 0 1.5rem;
+}
+.hero-name {
+  margin: 0;
+  line-height: 1.1;
+}
+.hero-name-main {
+  display: block;
+  font-family: var(--font-serif-kr);
+  font-size: clamp(2.75rem, 8vw, 4.5rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.hero-name-alt {
+  display: block;
+  font-family: var(--font-sans-en);
+  font-size: 0.9rem;
+  letter-spacing: 0.25em;
+  color: var(--color-muted);
+  margin-top: 0.85rem;
+  text-transform: uppercase;
+}
+.hero-tagline {
+  margin: 1.75rem auto 0;
+  max-width: 28em;
+  color: var(--color-muted);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+/* ── Sections ───────────────────────────── */
+.section {
+  padding: 3.25rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.section:last-of-type {
+  border-bottom: none;
+}
+.section-alt {
+  background: var(--color-bg-alt);
+}
+.section h2 {
+  font-family: var(--font-serif-kr);
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin: 0 0 1.25rem;
+  letter-spacing: -0.005em;
+}
+.section p {
+  margin: 0 0 1rem;
+}
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+.meta {
+  font-family: var(--font-sans-en);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+  margin-bottom: 1.25rem !important;
+}
+
+/* Brewing steps */
+.steps {
+  margin: 0;
+  padding-left: 1.4rem;
+  counter-reset: step;
+  list-style: none;
+}
+.steps li {
+  position: relative;
+  margin-bottom: 0.85rem;
+  padding-left: 0.4rem;
+}
+.steps li::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  position: absolute;
+  left: -1.6rem;
+  top: 0.2rem;
+  font-family: var(--font-sans-en);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+}
+
+/* Brewer */
+.brewer-name {
+  font-family: var(--font-serif-kr);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 !important;
+}
+.brewer-name-alt {
+  font-family: var(--font-sans-en);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--color-muted);
+  margin-left: 0.6rem;
+}
+.brewer-role {
+  color: var(--color-muted);
+  margin: 0.25rem 0 0 !important;
+  font-size: 0.95rem;
+}
+
+/* Award */
+.award-headline {
+  font-family: var(--font-serif-kr);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem !important;
+}
+
+/* Links */
+.link {
+  color: var(--color-fg);
+  border-bottom: 1px solid var(--color-fg);
+  text-decoration: none;
+  padding-bottom: 1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.link:hover {
+  color: var(--color-muted);
+  border-color: var(--color-muted);
+}
+
+/* ── Footer ─────────────────────────────── */
+.site-footer {
+  background: var(--color-dark);
+  color: #888;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-family: var(--font-sans-en);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+.site-footer p {
+  margin: 0;
+}
