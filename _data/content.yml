@@ -43,7 +43,7 @@ ko:
       - "다시 약 한 달 숙성하여 완성한다."
   brewer:
     title: "양조자"
-    name: "김미자"
+    name: "김미자 (金美子)"
     name_alt: "Kim Mija"
     role: "Studio Sori · 가양주 양조자"
   studio:
@@ -112,7 +112,7 @@ en:
       - "Age for approximately another month."
   brewer:
     title: "Brewer"
-    name: "Kim Mija"
+    name: "Kim Mija (金美子)"
     name_alt: "김미자"
     role: "Studio Sori · home brewer of gayangju"
   studio:
